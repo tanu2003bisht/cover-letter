@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cover Letter — Tanu Bisht</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f4f6fb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    .cl-card {
+      background: #ffffff;
+      border: 0.5px solid #d0d7e3;
+      border-radius: 14px;
+      box-shadow: 5px 5px 0 #B5D4F4, 10px 10px 0 #E6F1FB;
+      padding: 2.2rem 2.5rem 2rem;
+      max-width: 660px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    .cl-stripe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 5px; height: 100%;
+      background: #185FA5;
+      border-radius: 14px 0 0 14px;
+    }
+    .cl-name {
+      font-size: 22px;
+      font-weight: 600;
+      color: #1a1a1a;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+    .cl-contact {
+      font-size: 13px;
+      color: #666;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px 12px;
+      margin-bottom: 1.2rem;
+    }
+    .cl-contact a { color: #185FA5; text-decoration: none; }
+    .cl-contact a:hover { text-decoration: underline; }
+    .cl-divider {
+      border: none;
+      border-top: 0.5px solid #e0e4ec;
+      margin: 0 0 1.2rem;
+    }
+    .cl-date { font-size: 13px; color: #888; margin-bottom: 1rem; }
+    .cl-salutation { font-size: 15px; font-weight: 600; color: #1a1a1a; margin-bottom: 1rem; }
+    .cl-body {
+      font-size: 14.5px;
+      color: #2c2c2c;
+      line-height: 1.85;
+      margin-bottom: 1rem;
+    }
+    .cl-hl { color: #185FA5; font-weight: 600; }
+    .cl-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 1rem 0;
+    }
+    .cl-badge {
+      font-size: 12px;
+      padding: 4px 11px;
+      border-radius: 20px;
+      background: #E6F1FB;
+      color: #0C447C;
+      font-weight: 500;
+    }
+    .cl-closing {
+      font-size: 14.5px;
+      color: #2c2c2c;
+      line-height: 1.85;
+      margin-top: 1.2rem;
+    }
+    .cl-sig { font-weight: 600; color: #1a1a1a; }
+    .cl-sig-sub { font-size: 13px; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="cl-card">
+    <div class="cl-stripe"></div>
+
+    <div class="cl-name">Tanu Bisht</div>
+    <div class="cl-contact">
+      <span>tbisht939@gmail.com</span>
+      <span>+91-9027591246</span>
+      <a href="https://linkedin.com/in/tanu-bisht-71a9a422b" target="_blank">LinkedIn</a>
+      <a href="https://github.com/tanu2003bisht" target="_blank">GitHub</a>
+    </div>
+
+    <hr class="cl-divider">
+
+    <div class="cl-date" id="cl-date"></div>
+    <div class="cl-salutation">Dear Hiring Manager,</div>
+
+    <p class="cl-body">
+      I am <span class="cl-hl">Tanu Bisht</span>, a Computer Science graduate with
+      hands-on professional experience at <span class="cl-hl">STMicroelectronics as an SDE</span>,
+      where I contributed to backend development, database connectivity and error handling.
+      I am writing to express my interest in a Backend Developer role at your organization.
+    </p>
+
+    <p class="cl-body">
+      I have strong experience in backend development using
+      <span class="cl-hl">Node.js, Express.js and MongoDB</span>, working on REST APIs,
+      JWT authentication, middleware and role-based access control.
+      I have hands-on experience building and deploying
+      <span class="cl-hl">production-ready backend applications</span>, demonstrating my ability
+      to design scalable REST APIs and integrate real-world authentication systems.
+    </p>
+
+    <div class="cl-badges">
+      <span class="cl-badge">Node.js</span>
+      <span class="cl-badge">Express.js</span>
+      <span class="cl-badge">MongoDB</span>
+      <span class="cl-badge">JWT Auth</span>
+      <span class="cl-badge">REST APIs</span>
+      <span class="cl-badge">Mongoose</span>
+      <span class="cl-badge">ServiceNow</span>
+      <span class="cl-badge">Git & GitHub</span>
+    </div>
+
+    <p class="cl-body">
+      During my time at <span class="cl-hl">STMicroelectronics</span>, I developed backend utilities
+      for data extraction, implemented database connectivity and applied error handling and logging
+      best practices to improve application reliability. I also completed
+      <span class="cl-hl">ServiceNow training at Pelatis Technologies</span>, where I built service
+      catalog items, approval workflows and automation scripts using JavaScript.
+    </p>
+
+    <p class="cl-body">
+      I am a self-driven learner who believes in building things to understand them deeply.
+      I am confident my skills and experience make me a strong fit for a backend developer role
+      and I would love the opportunity to contribute to your team.
+    </p>
+
+    <p class="cl-body">
+      Thank you for your time and consideration. I look forward to hearing from you.
+    </p>
+
+    <div class="cl-closing">
+      Sincerely,<br>
+      <span class="cl-sig">Tanu Bisht</span><br>
+      <span class="cl-sig-sub">tbisht939@gmail.com &nbsp;|&nbsp; +91-9027591246</span>
+    </div>
+  </div>
+<script>const d=new Date();document.getElementById("cl-date").textContent=d.toLocaleString("en-US",{month:"long",year:"numeric"});</script>
+</body>
+</html>
